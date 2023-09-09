@@ -1,12 +1,11 @@
 # Suggesting Doctor Based On Symptoms :-
-* Swagger
-- http://localhost:8080/swagger-ui.html#/
+
 ## Frameworks and language used:
 -     Java
 -     Spring Boot
 -     SQL database
 -     Postman
--     Swagger
+
 ## Data Flow
 
 
@@ -48,13 +47,13 @@
 
   There are Four Repository Interfaces in this application.
 
-    * IDoctorRepository Interface.
-    * IPatientRepository Interface.
-    * IStatusRepository Interface.
-    * ISymptomsRepository Interface
+    * DoctorRepository Interface.
+    * PatientRepository Interface.
+    * StatusRepository Interface.
+    * SymptomsRepository Interface
 
 
-* **Helper/Validation** :
+* **Utility/Validation** :
     * In this application I'm using annotations based validation with manual validations for more safety and to keep continuity in data .
 
 
@@ -67,25 +66,11 @@
 * **Database**
 
     * I have used SQL Database to store the data.
-    * I have deployed this project on AWS EC2 machine.
+   
 
 ## Project Summary
 
-
-
-
-
-
-The proposed project involves the development of a web application that enables patients to find suitable doctors based on their specific symptoms and location. To achieve this, the system will allow patients to register and input their symptoms, after which they will be provided with relevant information about doctors who specialize in treating their specific condition and are available in their city.
-
-To ensure that patients receive accurate and up-to-date information, the system will be designed with multiple validations to prevent data redundancy and maintain consistency in the data. Additionally, the system will be equipped with a feature that suggests doctors located in nearby cities if there are no suitable specialists available in the patient's city.
-
-Overall, the application aims to provide patients with a user-friendly and efficient way to find the right doctors to treat their medical conditions, ultimately improving their healthcare outcomes.
-
-
-
-
-
+The project aims to create a user-friendly web app for patients to find suitable doctors based on their symptoms and location. Patients can input their symptoms, and the system provides relevant doctor recommendations. To maintain data accuracy, the system has built-in validations. If no specialists are available locally, it suggests doctors in nearby cities. Ultimately, the app improves healthcare access and outcomes for patients.
   
 
 
