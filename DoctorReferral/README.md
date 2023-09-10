@@ -60,6 +60,10 @@
 
 * **GlobalExceptionHandler class** :
     * In this class I have handled the exceptions that generates in project inbuild as well as custom.
+ 
+    * AlreadyExistsException
+    * NotFoundException
+    * NotValid
 
 
 
